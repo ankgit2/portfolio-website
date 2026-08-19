@@ -9,6 +9,7 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import { Icons } from "@/components/icons";
+import Image from 'next/image';
 
 const BLUR_FADE_DELAY = 0.00;
 
@@ -25,7 +26,7 @@ export default function Page() {
           {/* Avatar: Changed to rounded-full for a perfect circle like the image */}
           <div className="size-20 shrink-0 overflow-hidden rounded-full border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900">
              {/* Replace this with your actual image path */}
-              <img src="/ankit-profile.png" alt="Ankit Yadav" className="w-full h-full object-cover" /> 
+              <Image src="/ankit-profile.png" alt="Ankit Yadav" className="w-full h-full object-cover" width={80} height={80} /> 
           </div>
 
           {/* Text: Stacked column, no top margin, tightly spaced */}

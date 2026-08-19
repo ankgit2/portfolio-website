@@ -1,5 +1,5 @@
 // app/about/page.tsx
-
+import Image from 'next/image';
 export default function AboutPage() {
   return (
     <main 
@@ -19,7 +19,7 @@ export default function AboutPage() {
         </section>
 
        <div className="ms-auto size-20 overflow-clip rounded-lg border border-gray-300 dark:border-gray-700 bg-gray-200 dark:bg-gray-800  flex-shrink-0">
-       <img src="/ankit-profile2.jpeg" alt="Ankit Yadav" className="w-full h-full object-cover" /> 
+       <Image src="/ankit-profile2.jpeg" alt="Ankit Yadav" className="w-full h-full object-cover" width={80} height={80} /> 
        </div>
       </div>
       {/* Profile Content */}

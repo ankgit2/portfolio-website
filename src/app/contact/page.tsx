@@ -10,7 +10,7 @@ export default function ContactPage() {
           Let's work together.
         </h2>
         <p className="text-l sm:text-2l text-gray-600 dark:text-gray-400">
-          I'm always open to chat.<br />
+          I&apos;m always open to chat.<br/>
           Let's talk about what we can build together.
         </p>
       </section>
@@ -131,7 +131,7 @@ export default function ContactPage() {
       {/* Footer Section */}
       <section className="mt-10 flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
         <span>Based in Delhi, India</span>
-        <span>&middot;</span>
+         <span>&middot;</span>
         <a 
           href="/Ankit_Yadav_CV.pdf" 
           target="_blank" 
