@@ -9,8 +9,17 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Gurugram",
   description:
     "Aspiring Software Developer | Python, DSA",
-  summary:
-    "Hello, नमस्ते, hola, bonjour & hallo! Im a Python developer and Computer Science graduate who enjoys turning ideas into practical applications. I care about writing clean code, solving problems, and building things that are actually useful. Currently exploring software development, Python, and new technologies while looking for opportunities to grow and build meaningful products.",
+  summary: `Hello, नमस्ते, hola, bonjour, olá & hallo! 👋 
+  
+  I'm an aspiring Python developer into DSA & problem-solving. 
+  
+  I enjoy breaking big problems into smaller ones. Still learning, still building, still occasionally breaking everything.
+
+  Currently looking for opportunities to learn, build & grow.
+
+  while (not_success):
+  
+  keep_trying()`,
   avatarUrl: "/me.jpg", 
   homework:
      [
