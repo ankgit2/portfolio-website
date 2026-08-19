@@ -35,7 +35,7 @@ export default function AboutPage() {
        <div className="size-20 shrink-0 overflow-hidden rounded-full border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900">
        
        <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="w-full h-full object-cover"width={80} height={80} >
+              <Avatar className="w-full h-full object-cover" >
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl1} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
