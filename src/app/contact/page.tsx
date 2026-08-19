@@ -7,11 +7,11 @@ export default function ContactPage() {
       {/* Header section */}
       <section className="space-y-4 mb-10">
         <h2 className="text-3l sm:text-2xl font-extrabold tracking-tight m-0">
-          Let's work together.
+          Let&aposs work together.
         </h2>
         <p className="text-l sm:text-2l text-gray-600 dark:text-gray-400">
           I&apos;m always open to chat.<br/>
-          Let's talk about what we can build together.
+          Let&apos;s talk about what we can build together.
         </p>
       </section>
 
@@ -108,7 +108,7 @@ export default function ContactPage() {
 
           <div className="mt-2 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-sm text-gray-500 dark:text-gray-400">
-              I'll reply directly to your email.
+              I&apos;ll reply directly to your email.
             </p>
             
             {/* The static Send Button */}
