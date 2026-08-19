@@ -18,12 +18,10 @@ export default function AboutPage() {
           </h2>
         </section>
 
-        <div className="ms-auto size-20 overflow-clip rounded-lg border border-gray-300 dark:border-gray-700 bg-gray-200 dark:bg-gray-800 flex-shrink-0">
-          {/* Add your avatar image here later like this: */}
-          {/* <img src="/ankit-profile.jpg" alt="Ankit Yadav" className="w-full h-full object-cover" /> */}
-        </div>
+       <div className="ms-auto size-20 overflow-clip rounded-lg border border-gray-300 dark:border-gray-700 bg-gray-200 dark:bg-gray-800  flex-shrink-0">
+       <img src="/ankit-profile2.jpeg" alt="Ankit Yadav" className="w-full h-full object-cover" /> 
+       </div>
       </div>
-
       {/* Profile Content */}
       
       <p className="font-sans text-base leading-relaxed text-gray-600 dark:text-gray-300">

@@ -23,9 +23,9 @@ export default function Page() {
         <div className="flex items-center gap-4">
           
           {/* Avatar: Changed to rounded-full for a perfect circle like the image */}
-          <div className="size-16 shrink-0 overflow-hidden rounded-full border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900">
+          <div className="size-20 shrink-0 overflow-hidden rounded-full border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900">
              {/* Replace this with your actual image path */}
-             {/* <img src="/ankit-profile.jpg" alt="Ankit Yadav" className="w-full h-full object-cover" /> */}
+              <img src="/ankit-profile.png" alt="Ankit Yadav" className="w-full h-full object-cover" /> 
           </div>
 
           {/* Text: Stacked column, no top margin, tightly spaced */}
@@ -40,7 +40,7 @@ export default function Page() {
 
         {/* Right side: GitHub Icon, pushed to the far right using ml-auto (margin-left: auto) */}
         <a 
-          href="https://github.com/yourusername" 
+          href="https://github.com/ankgit2" 
           target="_blank"
           rel="noopener noreferrer"
           className="ml-auto flex items-center justify-center text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
@@ -61,7 +61,7 @@ export default function Page() {
               
       </section>
 
-      <section id="about">
+      <section id="project">
         
           <h2 style={{ opacity: 1, filter: 'blur(0px)', transform: 'none' }}>Project</h2>
         
