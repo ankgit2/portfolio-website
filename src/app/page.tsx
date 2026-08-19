@@ -26,7 +26,14 @@ export default function Page() {
           {/* Avatar: Changed to rounded-full for a perfect circle like the image */}
           <div className="size-20 shrink-0 overflow-hidden rounded-full border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900">
              {/* Replace this with your actual image path */}
-              <Image src="/ankit-profile.png" alt="Ankit Yadav" className="w-full h-full object-cover" width={80} height={80} /> 
+              
+              <BlurFade delay={BLUR_FADE_DELAY}>
+              <Avatar className="w-full h-full object-cover" >
+                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+                <AvatarFallback>{DATA.initials}</AvatarFallback>
+              </Avatar>
+            </BlurFade>
+
           </div>
 
           {/* Text: Stacked column, no top margin, tightly spaced */}

@@ -1,5 +1,19 @@
 // app/about/page.tsx
 import Image from 'next/image';
+import { HackathonCard } from "@/components/hackathon-card";
+import BlurFade from "@/components/magicui/blur-fade";
+import BlurFadeText from "@/components/magicui/blur-fade-text";
+import { ProjectCard } from "@/components/project-card";
+import { ResumeCard } from "@/components/resume-card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
+import { DATA } from "@/data/resume";
+import Link from "next/link";
+import Markdown from "react-markdown";
+import { Icons } from "@/components/icons";
+
+const BLUR_FADE_DELAY = 0.00;
+
 export default function AboutPage() {
   return (
     <main 
@@ -18,8 +32,14 @@ export default function AboutPage() {
           </h2>
         </section>
 
-       <div className="ms-auto size-20 overflow-clip rounded-lg border border-gray-300 dark:border-gray-700 bg-gray-200 dark:bg-gray-800  flex-shrink-0">
-       <Image src="/ankit-profile2.jpeg" alt="Ankit Yadav" className="w-full h-full object-cover" width={80} height={80} /> 
+       <div className="size-20 shrink-0 overflow-hidden rounded-full border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900">
+       
+       <BlurFade delay={BLUR_FADE_DELAY}>
+              <Avatar className="w-full h-full object-cover"width={80} height={80} >
+                <AvatarImage alt={DATA.name} src={DATA.avatarUrl1} />
+                <AvatarFallback>{DATA.initials}</AvatarFallback>
+              </Avatar>
+            </BlurFade>
        </div>
       </div>
       {/* Profile Content */}

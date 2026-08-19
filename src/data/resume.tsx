@@ -4,7 +4,7 @@ import { HomeIcon } from "lucide-react";
 export const DATA = {
   name: "Ankit Yadav",
   initials: "AY",
-  url: "https://kashifalirajper.vercel.app/",
+  url: "https://ankgit2.github.io/portfolio-website/",
   location: "Maruti Vihar, Gurugram, Haryana",
   locationLink: "https://www.google.com/maps/place/Gurugram",
   description:
@@ -20,7 +20,8 @@ export const DATA = {
   while (not_success):
   
   keep_trying()`,
-  avatarUrl: "/me.jpg", 
+  avatarUrl: "/ankit-profile.png",
+  avatarUrl1: "/ankit-profile1.jpeg" , 
   homework:
      [
   {
