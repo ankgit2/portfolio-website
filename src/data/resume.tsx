@@ -21,7 +21,9 @@ export const DATA = {
   
   keep_trying()`,
   avatarUrl: "/ankit-profile.png",
-  avatarUrl1: "/ankit-profile1.jpeg" , 
+  avatarUrl1: "/ankit-profile1.jpeg" ,
+  image: "/ankit-profile.png",
+
   homework:
      [
   {

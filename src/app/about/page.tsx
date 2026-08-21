@@ -36,7 +36,7 @@ export default function AboutPage() {
        
        <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="w-full h-full object-cover" >
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl1} />
+                <AvatarImage alt={DATA.name} src={DATA.image} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
